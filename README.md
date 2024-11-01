@@ -71,3 +71,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ```sh
 $ php artisan make:factory NomeFactory
 ```
+
+## Para definir que o projeto vai usar apis (usando Sanctum)
+
+```sh
+$ php artisan install:api
+```
