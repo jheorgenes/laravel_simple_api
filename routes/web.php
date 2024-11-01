@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+// Definindo que não terá componentes visuais
 Route::get('/', function () {
-    return view('welcome');
+    abort(404);
 });
